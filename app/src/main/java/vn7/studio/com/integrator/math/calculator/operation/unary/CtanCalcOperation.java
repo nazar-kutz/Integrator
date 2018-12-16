@@ -6,4 +6,9 @@ public class CtanCalcOperation extends UnaryCalcOperation {
     protected Double solve(Double argument) {
         return Math.cos(argument) / Math.sin(argument);
     }
+
+    @Override
+    public String getRegex() {
+        return null;
+    }
 }

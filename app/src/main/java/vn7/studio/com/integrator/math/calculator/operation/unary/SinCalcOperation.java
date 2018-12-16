@@ -6,4 +6,9 @@ public class SinCalcOperation extends UnaryCalcOperation {
     protected Double solve(Double argument) {
         return Math.sin(argument);
     }
+
+    @Override
+    public String getRegex() {
+        return null;
+    }
 }

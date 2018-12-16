@@ -6,4 +6,9 @@ public class CosCalcOperation extends UnaryCalcOperation {
     protected Double solve(Double argument) {
         return Math.cos(argument);
     }
+
+    @Override
+    public String getRegex() {
+        return null;
+    }
 }

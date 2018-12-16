@@ -14,4 +14,9 @@ public class FactorialCalcOperation extends UnaryCalcOperation {
         }
         return number * factorial(number - 1);
     }
+
+    @Override
+    public String getRegex() {
+        return null;
+    }
 }

@@ -6,4 +6,9 @@ public class AsinCalcOpearion extends UnaryCalcOperation {
     protected Double solve(Double argument) {
         return Math.asin(argument);
     }
+
+    @Override
+    public String getRegex() {
+        return null;
+    }
 }

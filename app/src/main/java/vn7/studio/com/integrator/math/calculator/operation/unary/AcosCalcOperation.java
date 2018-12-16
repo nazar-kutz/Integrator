@@ -6,4 +6,9 @@ public class AcosCalcOperation extends UnaryCalcOperation {
     protected Double solve(Double argument) {
         return Math.acos(argument);
     }
+
+    @Override
+    public String getRegex() {
+        return null;
+    }
 }

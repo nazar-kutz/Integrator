@@ -10,6 +10,11 @@ public class NumberCalcOperation extends CalcOperation {
         return Double.valueOf(argument);
     }
 
+    @Override
+    public String getRegex() {
+        return null;
+    }
+
     public String getArgument() {
         return argument;
     }

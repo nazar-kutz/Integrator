@@ -6,4 +6,9 @@ public class LogTenCalcOperation  extends UnaryCalcOperation {
     protected Double solve(Double argument) {
         return Math.log10(argument);
     }
+
+    @Override
+    public String getRegex() {
+        return null;
+    }
 }

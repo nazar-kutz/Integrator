@@ -6,4 +6,9 @@ public class TanCalcOperation  extends UnaryCalcOperation {
     protected Double solve(Double argument) {
         return Math.tan(argument);
     }
+
+    @Override
+    public String getRegex() {
+        return null;
+    }
 }
