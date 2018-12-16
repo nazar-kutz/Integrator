@@ -1,4 +1,4 @@
-package vn7.studio.com.integrator.math.calc;
+package vn7.studio.com.integrator.math.calculator;
 
 import vn7.studio.com.integrator.math.operation.Operation;
 
