@@ -12,7 +12,7 @@ public class NumberCalcOperation extends CalcOperation {
 
     @Override
     public String getRegex() {
-        return null;
+        return "^-?[0-9]+(.?[0-9]+([eE]-?[0-9]+)?)?$";
     }
 
     public String getArgument() {
