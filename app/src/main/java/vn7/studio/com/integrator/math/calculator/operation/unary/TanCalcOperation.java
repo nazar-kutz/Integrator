@@ -9,6 +9,6 @@ public class TanCalcOperation  extends UnaryCalcOperation {
 
     @Override
     public String getRegex() {
-        return null;
+        return "-?tan\\([^()]*\\)";
     }
 }

@@ -9,6 +9,6 @@ public class AcosCalcOperation extends UnaryCalcOperation {
 
     @Override
     public String getRegex() {
-        return null;
+        return "-?acos\\([^()]*\\)";
     }
 }

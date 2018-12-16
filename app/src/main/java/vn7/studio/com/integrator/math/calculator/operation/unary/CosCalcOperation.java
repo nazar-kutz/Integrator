@@ -9,6 +9,6 @@ public class CosCalcOperation extends UnaryCalcOperation {
 
     @Override
     public String getRegex() {
-        return null;
+        return "-?cos\\([^()]*\\)";
     }
 }

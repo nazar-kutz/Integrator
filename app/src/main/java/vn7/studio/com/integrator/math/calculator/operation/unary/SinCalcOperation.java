@@ -9,6 +9,6 @@ public class SinCalcOperation extends UnaryCalcOperation {
 
     @Override
     public String getRegex() {
-        return null;
+        return "-?sin\\([^()]*\\)";
     }
 }

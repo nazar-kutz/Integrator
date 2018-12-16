@@ -9,6 +9,6 @@ public class LogTenCalcOperation  extends UnaryCalcOperation {
 
     @Override
     public String getRegex() {
-        return null;
+        return "-?lg\\([^()]*\\)";
     }
 }

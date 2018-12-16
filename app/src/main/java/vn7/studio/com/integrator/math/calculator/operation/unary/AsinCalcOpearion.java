@@ -9,6 +9,6 @@ public class AsinCalcOpearion extends UnaryCalcOperation {
 
     @Override
     public String getRegex() {
-        return null;
+        return "-?asin\\([^()]*\\)";
     }
 }

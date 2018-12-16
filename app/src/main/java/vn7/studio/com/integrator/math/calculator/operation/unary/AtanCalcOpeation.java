@@ -9,6 +9,6 @@ public class AtanCalcOpeation extends UnaryCalcOperation {
 
     @Override
     public String getRegex() {
-        return null;
+        return "-?atan\\([^()]*\\)";
     }
 }

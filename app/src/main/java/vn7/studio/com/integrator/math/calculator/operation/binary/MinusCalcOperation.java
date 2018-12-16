@@ -9,6 +9,6 @@ public class MinusCalcOperation extends BinaryCalcOperation {
 
     @Override
     public String getRegex() {
-        return null;
+        return "-";
     }
 }

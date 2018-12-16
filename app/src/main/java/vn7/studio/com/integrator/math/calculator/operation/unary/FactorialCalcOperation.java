@@ -17,6 +17,6 @@ public class FactorialCalcOperation extends UnaryCalcOperation {
 
     @Override
     public String getRegex() {
-        return null;
+        return "-?fac\\([^()]*\\)";
     }
 }

@@ -9,6 +9,6 @@ public class LnCalcOperation extends UnaryCalcOperation {
 
     @Override
     public String getRegex() {
-        return null;
+        return "-?ln\\([^()]*\\)";
     }
 }

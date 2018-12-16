@@ -11,6 +11,6 @@ public class DivideCalcOperaion extends BinaryCalcOperation {
 
     @Override
     public String getRegex() {
-        return null;
+        return "/";
     }
 }

@@ -9,6 +9,6 @@ public class AddOperation extends BinaryCalcOperation {
 
     @Override
     public String getRegex() {
-        return null;
+        return "\\+";
     }
 }

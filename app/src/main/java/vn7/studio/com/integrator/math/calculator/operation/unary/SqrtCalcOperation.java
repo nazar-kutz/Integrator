@@ -9,6 +9,6 @@ public class SqrtCalcOperation  extends UnaryCalcOperation {
 
     @Override
     public String getRegex() {
-        return null;
+        return "-?sqrt\\([^()]*\\)";
     }
 }

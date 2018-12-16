@@ -9,6 +9,6 @@ public class ExpCalcOperation extends UnaryCalcOperation {
 
     @Override
     public String getRegex() {
-        return null;
+        return "-?exp\\([^()]*\\)";
     }
 }

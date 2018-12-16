@@ -9,6 +9,6 @@ public class PowerCalcOpearation extends BinaryCalcOperation {
 
     @Override
     public String getRegex() {
-        return null;
+        return "\\^";
     }
 }
