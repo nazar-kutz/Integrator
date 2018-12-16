@@ -1,0 +1,8 @@
+package vn7.studio.com.integrator.math.calc.operation.unary;
+
+public class AsinCalcOpearion extends UnaryCalcOperation {
+    @Override
+    protected Double solve(Double arg) {
+        return Math.asin(arg);
+    }
+}
