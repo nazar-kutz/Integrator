@@ -6,9 +6,4 @@ public class AtanCalcOpeation extends UnaryCalcOperation {
     protected Double solve(Double argument) {
         return Math.atan(argument);
     }
-
-    @Override
-    public String getRegex() {
-        return "-?atan\\([^()]*\\)";
-    }
 }

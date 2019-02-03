@@ -6,9 +6,4 @@ public class SqrtCalcOperation  extends UnaryCalcOperation {
     protected Double solve(Double argument) {
         return Math.sqrt(argument);
     }
-
-    @Override
-    public String getRegex() {
-        return "-?sqrt\\([^()]*\\)";
-    }
 }

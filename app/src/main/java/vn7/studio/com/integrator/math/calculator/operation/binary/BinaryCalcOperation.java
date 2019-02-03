@@ -5,12 +5,30 @@ import vn7.studio.com.integrator.math.calculator.operation.CalcOperationHolder;
 
 public abstract class BinaryCalcOperation extends CalcOperation {
     private String firstArg;
+
+    public String getFirstArg() {
+        return firstArg;
+    }
+
+    public void setFirstArg(String firstArg) {
+        this.firstArg = firstArg;
+    }
+
+    public String getSecondArg() {
+        return secondArg;
+    }
+
+    public void setSecondArg(String secondArg) {
+        this.secondArg = secondArg;
+    }
+
     private String secondArg;
 
     @Override
     public Double execute() {
-        CalcOperation leftOperation = CalcOperationHolder.findOperation(firstArg);
-        CalcOperation rightOperation =  CalcOperationHolder.findOperation(secondArg);
+        CalcOperationHolder holder = new CalcOperationHolder();
+        CalcOperation leftOperation = holder.findOperation(firstArg);
+        CalcOperation rightOperation =  holder.findOperation(secondArg);
         Double leftArgument = leftOperation.execute();
         Double rightArgument = rightOperation.execute();
         return solve(leftArgument, rightArgument);

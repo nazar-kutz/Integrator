@@ -6,9 +6,4 @@ public class MultiplyCalcOperation extends BinaryCalcOperation {
     protected Double solve(Double leftArgument, Double rightArgument) {
         return leftArgument * rightArgument;
     }
-
-    @Override
-    public String getRegex() {
-        return "\\*";
-    }
 }

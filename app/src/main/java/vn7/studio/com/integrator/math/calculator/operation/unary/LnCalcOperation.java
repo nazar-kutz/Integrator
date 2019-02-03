@@ -6,9 +6,4 @@ public class LnCalcOperation extends UnaryCalcOperation {
     protected Double solve(Double argument) {
         return Math.log(argument);
     }
-
-    @Override
-    public String getRegex() {
-        return "-?ln\\([^()]*\\)";
-    }
 }

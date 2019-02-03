@@ -6,9 +6,4 @@ public class ExpCalcOperation extends UnaryCalcOperation {
     protected Double solve(Double argument) {
         return Math.exp(argument);
     }
-
-    @Override
-    public String getRegex() {
-        return "-?exp\\([^()]*\\)";
-    }
 }

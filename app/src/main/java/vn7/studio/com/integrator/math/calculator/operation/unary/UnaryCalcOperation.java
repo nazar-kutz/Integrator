@@ -8,9 +8,10 @@ public abstract class UnaryCalcOperation extends CalcOperation {
 
     @Override
     public Double execute() {
-        CalcOperation operation = CalcOperationHolder.findOperation(argument);
+        CalcOperationHolder holder = new CalcOperationHolder();
+        CalcOperation operation = holder.findOperation(argument);
         Double result = operation.execute();
-        return solve(result);
+        return sign.getMultiplier()*solve(result);
     }
 
     public String getArgument() {
