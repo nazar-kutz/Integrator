@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FunctionFieldFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/label_layout"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <HorizontalScrollView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/light_grey_rectangle"
+                android:paddingEnd="12dp"
+                android:paddingStart="12dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="end">
+
+                    <TextView
+                        android:id="@+id/tvFunction"
+                        style="@style/EditTextIntegratorStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:layout_gravity="center_vertical"
+                        tools:text="sin(50)+234"
+                        />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <View style="@style/IntegratorHorizontalSpaceStyle"/>
+
+            <FrameLayout
+                android:id="@+id/btnEditFunction"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/edit_icon_right"
+                android:layout_gravity="end|center_vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_edit_black_24dp"
+                    android:layout_gravity="center" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

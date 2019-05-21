@@ -3,4 +3,13 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="darkGrey">#191919</color>
+    <color name="alizireRed">#C10414</color>
+    <color name="alizireRedWhiter">#E32636</color>
+    <color name="alizireRedDarker">#B00303</color>
+    <color name="lightGrey">#777777</color>
+    <color name="grey">#444444</color>
+    <color name="black">#000000</color>
+    <color name="lightOrange1">#fee269</color>
+    <color name="lightOrange2">#ffe677</color>
 </resources>

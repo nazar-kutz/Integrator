@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Integrator</string>
+
+    <string name="interval">interval:</string>
+    <string name="accuracy">accuracy:</string>
+    <string name="function">function:</string>
+    <string name="result">result:</string>
+    <string name="for_x">for x:</string>
+    <string name="sum_mode">∑</string>
+    <string name="sum_mode_description">sum</string>
+    <string name="mult_mode_description">multiply</string>
+    <string name="mult_mode">∏</string>
+    <string name="type">type:</string>
+    <string name="not_all_fields_fill">Не всі поля заповнені</string>
+    <string name="arithmetical_exception">Помилка</string>
+    <string name="min">min:</string>
+    <string name="max">max:</string>
 </resources>

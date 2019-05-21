@@ -4,7 +4,6 @@ public class BracketParser {
     public static String parseSubFunction(String element, String start) {
         String result = null;
         int indexOfFirstBracket = element.indexOf('(');
-        //System.out.println(element.substring(indexOfFirstBracket));
         int counter = 0;
         char[] chars = element.substring(indexOfFirstBracket).toCharArray();
         for (int i = 0; i < chars.length; i++) {

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:foregroundGravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/KeyboardLineStyle">
+
+        <FrameLayout
+            android:id="@+id/btnPower"
+            style="@style/IntegratorFrameButtonStyle">
+
+            <TextView
+                style="@style/IntegratorButtonTextStyle"
+                android:text="^" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/btnSqrt"
+            style="@style/IntegratorFrameButtonStyle">
+
+            <TextView
+                style="@style/IntegratorButtonTextStyle"
+                android:text="√" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/KeyboardLineStyle">
+
+        <FrameLayout
+            android:id="@+id/btnBracketOpen"
+            style="@style/IntegratorFrameButtonStyle">
+
+            <TextView
+                style="@style/IntegratorButtonTextStyle"
+                android:text="(" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/btnBracketClose"
+            style="@style/IntegratorFrameButtonStyle">
+
+            <TextView
+                style="@style/IntegratorButtonTextStyle"
+                android:text=")" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/btnFactorial"
+            style="@style/IntegratorFrameButtonStyle">
+
+            <TextView
+                style="@style/IntegratorButtonTextStyle"
+                android:text="!" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout style="@style/KeyboardLineStyle" />
+
+    <LinearLayout style="@style/KeyboardLineStyle" />
+
+</LinearLayout>

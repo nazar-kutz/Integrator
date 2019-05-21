@@ -122,14 +122,6 @@ public class CalcOperationHolder extends OperationHolder<CalcOperation> {
         return resultOperation;
     }
 
-    private String parseUnaryOperation(String o) {
-        return null;
-    }
-
-    private String parseBinaryOperation(String o) {
-        return null;
-    }
-
     private String parseUnaryOperationArgument(String o) {
         return o.substring(o.indexOf('('), o.lastIndexOf(')'));
     }

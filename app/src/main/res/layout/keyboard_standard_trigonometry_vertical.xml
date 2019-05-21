@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:foregroundGravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/KeyboardLineStyle">
+
+        <FrameLayout
+            android:id="@+id/btnSin"
+            style="@style/IntegratorFrameButtonStyle">
+
+            <TextView
+                style="@style/IntegratorButtonTextStyle"
+                android:text="sin" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/btnCos"
+            style="@style/IntegratorFrameButtonStyle">
+
+            <TextView
+                style="@style/IntegratorButtonTextStyle"
+                android:text="cos" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/btnTan"
+            style="@style/IntegratorFrameButtonStyle">
+
+            <TextView
+                style="@style/IntegratorButtonTextStyle"
+                android:text="tan" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/KeyboardLineStyle">
+
+        <FrameLayout
+            android:id="@+id/btnASin"
+            style="@style/IntegratorFrameButtonStyle">
+
+            <TextView
+                style="@style/IntegratorButtonTextStyle"
+                android:text="asin" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/btnAcos"
+            style="@style/IntegratorFrameButtonStyle">
+
+            <TextView
+                style="@style/IntegratorButtonTextStyle"
+                android:text="acos" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/btnAtan"
+            style="@style/IntegratorFrameButtonStyle">
+
+            <TextView
+                style="@style/IntegratorButtonTextStyle"
+                android:text="atan" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/KeyboardLineStyle">
+
+        <FrameLayout
+            android:id="@+id/btnCtan"
+            style="@style/IntegratorFrameButtonStyle">
+
+            <TextView
+                style="@style/IntegratorButtonTextStyle"
+                android:text="ctan" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/btnLn"
+            style="@style/IntegratorFrameButtonStyle">
+
+            <TextView
+                style="@style/IntegratorButtonTextStyle"
+                android:text="ln" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/btnLg"
+            style="@style/IntegratorFrameButtonStyle">
+
+            <TextView
+                style="@style/IntegratorButtonTextStyle"
+                android:text="lg" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/KeyboardLineStyle">
+
+        <FrameLayout
+            android:id="@+id/btnExp"
+            style="@style/IntegratorFrameButtonStyle">
+
+            <TextView
+                style="@style/IntegratorButtonTextStyle"
+                android:text="exp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/btnE"
+            style="@style/IntegratorFrameButtonStyle">
+
+            <TextView
+                style="@style/IntegratorButtonTextStyle"
+                android:text="e" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/btnPi"
+            style="@style/IntegratorFrameButtonStyle">
+
+            <TextView
+                style="@style/IntegratorButtonTextStyle"
+                android:text="π" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

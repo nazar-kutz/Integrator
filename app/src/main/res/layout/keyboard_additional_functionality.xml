@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:foregroundGravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/KeyboardLineStyle">
+
+        <FrameLayout
+            android:id="@+id/btnNumbers"
+            style="@style/IntegratorFrameButtonStyle2">
+
+            <TextView
+                style="@style/IntegratorButtonTextStyle3"
+                android:text="123..." />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/btnSpecial"
+            style="@style/IntegratorFrameButtonStyle2">
+
+            <TextView
+                style="@style/IntegratorButtonTextStyle3"
+                android:text="^√!..." />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/btnTrigonometry"
+            style="@style/IntegratorFrameButtonStyle2">
+
+            <TextView
+                style="@style/IntegratorButtonTextStyle3"
+                android:text="sin(x)" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/btnBackspace"
+            style="@style/IntegratorFrameButtonStyle2">
+
+            <TextView
+                style="@style/IntegratorButtonTextStyle2"
+                android:textSize="30sp"
+                android:text="bs⌫" />
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>
